@@ -1,0 +1,252 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 50px;
+    width: 100%;
+}
+
+/* header */
+
+.box-header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-input{
+    margin-right: 10px;
+}
+.menubar{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.menubar-list{
+    width: 200px;
+    height: 35px;
+    background-color : #09095F;
+    border-radius: 1em;
+    color : white;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.menubar-list:hover {
+    border: 1px solid #8062D6;
+    background-color : #9288F8;
+    color:black;
+    font-weight: bold;
+}
+.nav-login-btn{
+    background-color: #09095F;
+    border-radius: 1em;
+    color:white;
+}
+
+/* menubar */
+
+.menu{
+    width: 200px;
+}
+
+/* main */
+.main-img {
+    padding: 10px;
+    border-radius: 1em;
+    width:850px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+}
+
+.main-nav-logo{
+    width : 100px;
+    margin-left: 50px;
+    position: relative;
+    top: 35px;
+}
+
+/* movie-img */
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top : 500px;
+}
+
+.movie {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top : 500px;
+
+}
+
+.movie-img{
+    width: 120px;
+    height: 180px;
+    background-color:#9188f845;
+    opacity: 70%;
+}
+
+.abouttime-box{
+    display: flex;
+}
+
+.arrow-btn{
+    background-color:#9288F8;
+    color:white;
+    border: none;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    margin:0 0 5px 3px;
+}
+
+.arrow-btn:hover{
+    border: 1px solid #8062D6;
+    background-color : #9288F8;
+    color:black;
+}
+
+/* 회원탈퇴 */
+.delete-btn{
+    background-color: gray;
+    color : white;
+    border-radius: 2em;
+}
+
+/* 로그인 */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-logo{
+    width : 100px;
+    margin-bottom: 15px;
+}
+
+.sub-title{
+    padding-bottom: 20px;
+    font-weight:900;
+}
+
+.section-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
+    padding-left: 170px;
+}
+
+.google-logo {
+    width:15px ;
+    height: 15px;
+}
+
+.section-right {    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    padding-right:170px;
+    
+}
+
+.email-login-btn { 
+    padding : 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgb(211, 210, 210);
+}
+.login-img{
+    width: 700px;
+    height: 600px;
+  
+}
+
+.input-btn {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgb(211, 210, 210);
+    padding: 10px;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #09095F;
+ 
+}
+
+.arrow {
+    padding-right: 10px;
+}
+
+.signup{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 회원가입 */
+.section-join-form{
+    display: flex;
+    justify-content: center;
+}
+
+.join-form{
+    flex-direction: column;
+}
+.double-check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h5 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    font-weight: 700;
+}
+
